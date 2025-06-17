@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Handle Multiple Window]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" name="Chrome_Test(failed)">
+    <classes>
+      <class name="main.RediffTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createDriver"/>
+          <include name="clickCreateAccount"/>
+          <include name="cntNumberOfLinks"/>
+          <include name="handleTermsWindow"/>
+        </methods>
+      </class> <!-- main.RediffTest -->
+    </classes>
+  </test> <!-- Chrome_Test(failed) -->
+</suite> <!-- Failed suite [Handle Multiple Window] -->
